@@ -2,9 +2,9 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.apache.trafodion.udf</groupId>
-    <artifactId>cube</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>CubeUDF</groupId>
+    <artifactId>CubeUDF</artifactId>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>cube</name>
@@ -18,8 +18,9 @@
         <dependency>
             <groupId>org.trafodion</groupId>
             <artifactId>trafodion-sql</artifactId>
-            <version>2.3.0</version>
-            <scope>provided</scope>
+            <version>2.2.1</version>
+            <scope>system</scope>
+            <systemPath>${MY_SQROOT}/export/lib/trafodion-sql-apache-2.2.1.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
