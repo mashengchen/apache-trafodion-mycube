@@ -326,7 +326,7 @@ public class CUBE extends UDR {
         Properties prop = new Properties();
         prop.put("schema", "SEABASE");
         prop.put("catalog", "TRAFODION");
-        JdbcConnectionInfo t2 = new JdbcConnectionInfo(prop);
+        // JdbcConnectionInfo t2 = new JdbcConnectionInfo(prop);
         // JdbcConnectionInfo t2 = new JdbcConnectionInfo();
         // Connection conn = t2.getConnection();
         // try {
