@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -18,9 +19,11 @@
         <dependency>
             <groupId>org.trafodion</groupId>
             <artifactId>trafodion-sql</artifactId>
-            <version>2.2.1</version>
+            <!-- <version>2.3.0</version> -->
+            <version>${TRAFODION_VER}</version>
             <scope>system</scope>
-            <systemPath>${MY_SQROOT}/export/lib/trafodion-sql-apache-2.2.1.jar</systemPath>
+            <systemPath>${TRAF_HOME}/export/lib/trafodion-sql-apache-${TRAFODION_VER}.jar</systemPath>
+            <!-- <systemPath>E:/work/maven/org/trafodion/trafodion-sql/2.3.0/trafodion-sql-apache-2.3.0.jar</systemPath> -->
         </dependency>
         <dependency>
             <groupId>junit</groupId>
